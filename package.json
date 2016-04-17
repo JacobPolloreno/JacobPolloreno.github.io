@@ -24,8 +24,7 @@
   "devDependencies": {},
   "scripts": {
     "build": "NODE_ENV=production webpack -p --progress --colors --profile",
-    "dev": "webpack-dev-server --content-base build --inline --hot",
-    "start": "NODE_ENV=production node build/client.min.index.js --progress --colors --profile"
+    "dev": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "ISC"
