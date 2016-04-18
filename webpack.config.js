@@ -18,8 +18,9 @@ module.exports = {
     }, ],
   },
   output: {
-    path: __dirname + '/dist/',
+    path: __dirname + '/build/',
     filename: 'client.min.js',
+    publicPath: 'build',
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),

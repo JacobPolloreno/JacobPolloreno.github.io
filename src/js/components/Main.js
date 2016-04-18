@@ -47,6 +47,33 @@ export default class Main extends React.Component {
             <Box size="standard"></Box>
           </Col>
         </Section>
+        <section id="about" class="about row">
+          <Row>
+            <i class="material-icons">format_quote</i>
+            <p class="text-center">My name is Jacob Polloreno.</p>
+            <i class="material-icons pull-right">format_quote</i>
+          </Row>
+        </section>
+        <Section title="TEACHER">
+          <Col xs={3} md={3}>
+            <Box size="standard"></Box>
+          </Col>
+          <Col xs={6} md={6}>
+            <Box size="standard"></Box>
+          </Col>
+          <Col xs={3} md={3}>
+            <Box size="standard"></Box>
+          </Col>
+          <Col xs={6} md={6}>
+            <Box size="standard"></Box>
+          </Col>
+          <Col xs={3} md={3}>
+            <Box size="standard"></Box>
+          </Col>
+          <Col xs={3} md={3}>
+            <Box size="standard"></Box>
+          </Col>
+        </Section>
         <Section title="STUDENT">
           <Col xs={4} md={4}>
             <Box size="tall" src="http://lorempixel.com/370/510"></Box>
@@ -58,13 +85,6 @@ export default class Main extends React.Component {
             <Box size="tall" src="http://lorempixel.com/370/510"></Box>
           </Col>
         </Section>
-        <section id="about" class="about">
-          <Row>
-            <i class="material-icons">format_quote</i>
-            <p class="text-center">My name is Jacob Polloreno.</p>
-            <i class="material-icons pull-right">format_quote</i>
-          </Row>
-        </section>
       </div>
     );
   }

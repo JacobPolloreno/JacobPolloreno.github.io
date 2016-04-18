@@ -16,9 +16,8 @@ export default class Header extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#">Work</NavItem>
-            <NavItem eventKey={2} href="#about">About</NavItem>
-            <NavItem eventKey={3} href="#contact">
+            <NavItem eventKey={1} href="#about">About</NavItem>
+            <NavItem eventKey={2} href="#contact">
               <span class="material-icons">mail</span>
             </NavItem>
           </Nav>
