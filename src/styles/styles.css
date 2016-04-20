@@ -24,6 +24,9 @@
   pointer-events: none;
   font-family: 'Rokkitt', serif;
 }
+.hidden {
+  visibility: hidden;
+}
 .main {
   padding-top: 75px;
 }
@@ -110,7 +113,7 @@
     }
     .headers {
       margin-top: -245px;
-      font-size:90px;
+      font-size: 5em;;
     }
     .standard.thumbnail > .caption {
       margin-top: -112px;

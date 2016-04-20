@@ -8,7 +8,7 @@ render () {
 
   return (
     <footer>
-      <Row id="contact" class="contact container">
+      <div id="contact" class="contact container">
         <h2 class="text-center">Send me a message</h2>
         <form>
           <Input type="text" label="Name" />
@@ -16,7 +16,7 @@ render () {
           <Input type="textarea" label="Message"  />
           <ButtonInput type="submit" value="Submit" />
         </form>
-      </Row>
+      </div>
     </footer>
   );
 }
