@@ -24,6 +24,9 @@
   pointer-events: none;
   font-family: 'Rokkitt', serif;
 }
+.hidden {
+  visibility: hidden;
+}
 .main {
   padding-top: 75px;
 }
