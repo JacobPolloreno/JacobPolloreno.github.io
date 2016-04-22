@@ -47,10 +47,10 @@ export default class Main extends React.Component {
             <Box size="standard"></Box>
           </Col>
         </Section>
-        <section id="about" class="about row">
+        <section id="about" class="about container">
           <Row>
             <i class="material-icons">format_quote</i>
-            <p class="text-center">My name is Jacob Polloreno.</p>
+            <p class="text-center">Hello,<br/>Welcome to my personal website.</p>
             <i class="material-icons pull-right">format_quote</i>
           </Row>
         </section>
