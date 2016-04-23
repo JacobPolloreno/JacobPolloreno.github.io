@@ -23,19 +23,10 @@ export default class Box extends React.Component {
   }
 
   render() {
-    const size = this.props.size === 'tall' ? 'tall' : 'standard';
-    const styles = {
-      box: {
-        border: '.5px solid red',
-      },
-    };
-
-    const caption = this.props.title  ? <h3>{this.props.title}</h3> : null;
-
     return (
         <Row class="box" onClick={this.open}>
-          <Thumbnail class={size} src={this.props.src} alt={this.props.alt}></Thumbnail>
-          <LightBox show={this.state.showModal} close={this.close}/>
+          <Thumbnail class={this.props.size} src={this.props.src} alt={this.props.alt}></Thumbnail>
+          <LightBox show={this.state.showModal} close={this.close} src={this.props.msrc} type={this.props.mtype} desc={this.props.desc}/>
         </Row>
     );
   }
