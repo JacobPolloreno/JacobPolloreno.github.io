@@ -21,15 +21,6 @@ export default class Main extends React.Component {
               desc="Philosophy is a major part in developing the questions I wish to answer."></Box>
           </Col>
         </Section>
-        <section id="about" class="about container">
-          <Row>
-            <i class="material-icons">format_quote</i>
-            <p class="text-center">Hello,<br/>My name is Jacob Polloreno. I love to talk about <strong>philosophy</strong> and <strong>programming</strong>. Sometimes both at the same time.
-               I graduated <em>UC Davis</em> with a bachelor's in philosophy. I'm using that degree to create interesting critical thinking tools for K-12 learners. I've built
-             web applications using <u>React</u>, <u>Angular</u>, and <u>Django</u>. </p>
-            <i class="material-icons pull-right">format_quote</i>
-          </Row>
-        </section>
         <Section title="DEVELOPER">
           <Col xs={9} md={9}>
             <Box size="standard" src="../../../assets/toysandgiftshop-cropped.png"
@@ -51,7 +42,7 @@ export default class Main extends React.Component {
           <Col xs={3} md={3}>
             <Box size="tall" src="../../../assets/img1.jpg" mtype="image" msrc="../../../assets/sail_stem_collage.jpg"
               desc="Built, designed, and managed an interactive social media platform and classroom for a summer camp. The web app was built using Angular front-end and Django backend.
-              Students were eager to share their experience with coming to the United States for the first time to study."              ></Box>
+              Students were eager to share their experience with coming to the United States for the first time to study."></Box>
           </Col>
         </Section>
         <Section title="TEACHER">
@@ -66,9 +57,18 @@ export default class Main extends React.Component {
                 him develop."></Box>
               <Box size="standard" src="../../../assets/alex-cropped.jpg" mtype="image" msrc="../../../assets/alex.jpg"
                 desc="This is Alex. I've been tutoring and mentoring Alex for over two years. He's a great student and kid. I try to foster his inquisitive mind
-                and facilitate challenging discussions."                ></Box>
+                and facilitate challenging discussions."></Box>
           </Col>
         </Section>
+        <section id="about" class="about row">
+          <div class="container">
+            <i class="material-icons">format_quote</i>
+            <p class="text-center">Hello,<br/>My name is Jacob Polloreno. I love to talk about <strong>philosophy</strong> and <strong>programming</strong>. Sometimes both at the same time.
+               I graduated <em>UC Davis</em> with a bachelor's in philosophy. I'm using that degree to create interesting critical thinking tools for K-12 learners. I've built
+             web applications using <u>React</u>, <u>Angular</u>, and <u>Django</u>. </p>
+            <i class="material-icons pull-right">format_quote</i>
+          </div>
+        </section>
       </div>
     );
   }

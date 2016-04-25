@@ -1,4 +1,7 @@
-.about > .row > .material-icons {
+.about {
+  height: auto !important;
+}
+.about > .container > .material-icons {
   color: #00BCD4;
 }
 .box {
@@ -31,7 +34,7 @@
   padding-top: 75px;
 }
 .main > section {
-  margin-bottom: 150px;
+  margin-bottom: px;
   min-height: 100%;
   z-index: 0;
 }
@@ -97,11 +100,11 @@
 
 /* Extra Small Devices, Phones */
   @media only screen and (max-width : 991px) {
-    .about > .row > p {
+    .about > .container > p {
         font-size: 23px;
         margin: 25px auto;
     }
-    .about > .row > .material-icons {
+    .about > .container > .material-icons {
       font-size: 100px;
     }
     .box > .standard {
@@ -129,11 +132,11 @@
   }
 
   @media only screen and (min-width : 992px) {
-    .about > .row > p {
+    .about > .container > p {
         font-size: 33px;
         margin: 35px auto;
     }
-    .about > .row > .material-icons {
+    .about > .container > .material-icons {
       font-size: 140px;
     }
     .box > .standard {
