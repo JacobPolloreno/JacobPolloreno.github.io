@@ -11,16 +11,6 @@ export default class Main extends React.Component {
 
     return (
       <div class="main">
-        <Section title="PHILOSOPHER">
-          <Col xs={2} md={2}>
-            <Box size="tall" src="../../../assets/self_collage.jpg" mtype="image" msrc="../../../assets/sea.jpg"
-              desc=""></Box>
-          </Col>
-          <Col xs={10} md={10}>
-            <Box size="tall" src="../../../assets/SoA.jpg" mtype="image" msrc="../../../assets/SoA.jpg"
-              desc="Philosophy is a major part in developing the questions I wish to answer."></Box>
-          </Col>
-        </Section>
         <Section title="DEVELOPER">
           <Col xs={9} md={9}>
             <Box size="standard" src="../../../assets/toysandgiftshop-cropped.png"
@@ -47,7 +37,7 @@ export default class Main extends React.Component {
         </Section>
         <Section title="TEACHER">
           <Col xs={9} md={9}>
-            <Box size="tall" src="../../../assets/group2-cropped.jpg" mtype="image" msrc="../../../assets/group2.jpg"
+            <Box size="tall" src="../../../assets/group2-cropped.jpg" mtype="image" msrc="../../../assets/perceiver.jpg"
               desc="Our teaching squad for a STEM camp. I was tasked with preparing and teaching material for english reading and writing as well as critical thinking."></Box>
           </Col>
           <Col xs={3} md={3}>
@@ -58,6 +48,18 @@ export default class Main extends React.Component {
               <Box size="standard" src="../../../assets/alex-cropped.jpg" mtype="image" msrc="../../../assets/alex.jpg"
                 desc="This is Alex. I've been tutoring and mentoring Alex for over two years. He's a great student and kid. I try to foster his inquisitive mind
                 and facilitate challenging discussions."></Box>
+          </Col>
+        </Section>
+        <Section title="PHILOSOPHER">
+          <Col xs={2} md={2}>
+            <Box size="tall" src="../../../assets/self_collage.jpg" mtype="image" msrc="../../../assets/sea.jpg"
+              desc="Philosophy has framed my perspective on how to live. It provides a set of habits and skills to achieve knowledge and navigate
+              the world. "></Box>
+          </Col>
+          <Col xs={10} md={10}>
+            <Box size="tall" src="../../../assets/SoA.jpg" mtype="image" msrc="../../../assets/SoA.jpg"
+              desc="Philosophy is a major part in developing the questions I wish to answer. These philsophers have taught me how to think
+              which is an invaluable tool to have. I wish to create tools for future generations that expose them to philosophy."></Box>
           </Col>
         </Section>
         <section id="about" class="about row">
