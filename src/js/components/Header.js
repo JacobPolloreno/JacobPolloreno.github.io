@@ -33,7 +33,7 @@ export default class Header extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#about" onSelect={this.handleSelect}>About</NavItem>
+            <NavItem eventKey={1} href="#about">About</NavItem>
             <NavItem eventKey={2} href="#contact">
               <span class="material-icons">mail</span>
             </NavItem>
