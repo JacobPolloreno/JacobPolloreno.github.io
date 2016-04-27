@@ -26,7 +26,9 @@ export default class Box extends React.Component {
     return (
         <Row class="box" onClick={this.open}>
           <Thumbnail class={this.props.size} src={this.props.src} alt={this.props.alt}></Thumbnail>
-          <LightBox show={this.state.showModal} close={this.close} src={this.props.msrc} type={this.props.mtype} desc={this.props.desc}/>
+          <LightBox show={this.state.showModal} close={this.close} image={this.props.src}
+            src={this.props.msrc} type={this.props.mtype} desc={this.props.desc} extra={this.props.mextra}
+            lhref={this.props.lhref} ldesc = {this.props.ldesc}/>
         </Row>
     );
   }

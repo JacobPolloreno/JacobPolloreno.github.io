@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Modal, Image, ResponsiveEmbed } from 'react-bootstrap';
+import { Modal, Button, Image, ResponsiveEmbed } from 'react-bootstrap';
 
 export default class LightBox extends React.Component {
 
@@ -13,9 +13,20 @@ export default class LightBox extends React.Component {
       component = <ResponsiveEmbed a16by9>
         <iframe scrolling='no' src={url}></iframe>
       </ResponsiveEmbed>;
-    } else if (this.props.type === 'embed-vm') {
+    }else if (this.props.type === 'embed-sl') {
+      const url = `https://docs.google.com/presentation/d/${this.props.src}/embed`;
+      component = <ResponsiveEmbed a16by9>
+        <iframe src={url} allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"/>
+        </ResponsiveEmbed>;
+    } else if (this.props.type === 'embed-yt') {
+      const url = `http://www.youtube.com/embed/${this.props.src}`;
+      component = <ResponsiveEmbed a16by9><iframe id="ytplayer" type="text/html" src={url}/></ResponsiveEmbed>;
+    }
 
-    } else if (this.props.type === 'embed-sl') {}
+    let link;
+    if (this.props.extra === 'link') {
+      link = <Button bsSize="small" href={this.props.lhref} target="_blank">{this.props.ldesc}</Button>;
+    }
 
     return (
       <Modal bsSize="large" show={this.props.show} onHide={this.props.close}>
@@ -25,6 +36,7 @@ export default class LightBox extends React.Component {
         </Modal.Body>
         <Modal.Footer>
           <p>{this.props.desc}</p>
+          {link}
         </Modal.Footer>
       </Modal>
     );
