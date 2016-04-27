@@ -13,7 +13,6 @@ export default class Section extends React.Component {
 
     return (
         <Row componentClass="section" >
-          <span class="vertical">{this.props.title}</span>
           <Grid>
             {this.props.children}
           </Grid>
