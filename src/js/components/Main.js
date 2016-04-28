@@ -11,11 +11,20 @@ export default class Main extends React.Component {
 
     return (
       <div class="main">
+        <section id="about" class="about row">
+          <div class="container">
+            <i class="material-icons icon-flipped">format_quote</i>
+            <p class="text-center">Hello,<br/>My name is Jacob Polloreno. I love to talk about <strong>philosophy</strong> and <strong>programming</strong>. Sometimes both at the same time.
+               I graduated <em>UC Davis</em> with a bachelor's in philosophy. I'm using that degree to create interesting critical thinking tools for K-12 learners. I've built
+             web applications using <u>React</u>, <u>Angular</u>, and <u>Django</u>. </p>
+            <i class="material-icons pull-right">format_quote</i>
+          </div>
+        </section>
         <Section title="DEVELOPER">
           <Col xs={9} md={9}>
             <Col xs={7} md={7}>
               <Box size="standard" src="../../../assets/toysandgiftshop-cropped.png"
-                msrc="../../../assets/toysandgiftshop.png" mtype="image"
+                msrc="../../../assets/toysandgiftshop.jpg" mtype="image"
                 desc="Built and designed an ecommerce web app using Django and Python. I was reponsible for system administration work such as setting up hosting, deploying, optimizing, and SEO services.
                 I learned a great deal about basic design principles in conjunction with user interaction in a store."></Box>
             </Col>
@@ -77,15 +86,7 @@ export default class Main extends React.Component {
               which is an invaluable tool to have. I wish to create tools for future generations that expose them to philosophy."></Box>
           </Col>
         </Section>
-        <section id="about" class="about row">
-          <div class="container">
-            <i class="material-icons icon-flipped">format_quote</i>
-            <p class="text-center">Hello,<br/>My name is Jacob Polloreno. I love to talk about <strong>philosophy</strong> and <strong>programming</strong>. Sometimes both at the same time.
-               I graduated <em>UC Davis</em> with a bachelor's in philosophy. I'm using that degree to create interesting critical thinking tools for K-12 learners. I've built
-             web applications using <u>React</u>, <u>Angular</u>, and <u>Django</u>. </p>
-            <i class="material-icons pull-right">format_quote</i>
-          </div>
-        </section>
+
       </div>
     );
   }
