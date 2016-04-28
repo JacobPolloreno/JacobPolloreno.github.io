@@ -22,15 +22,15 @@ export default class Main extends React.Component {
         </section>
         <Section title="DEVELOPER">
           <Col xs={9} md={9}>
-            <Col xs={7} md={7}>
+            <Col xs={8} md={8}>
               <Box size="standard" src="../../../assets/toysandgiftshop-cropped.png"
                 msrc="../../../assets/toysandgiftshop.jpg" mtype="image"
                 desc="Built and designed an ecommerce web app using Django and Python. I was reponsible for system administration work such as setting up hosting, deploying, optimizing, and SEO services.
                 I learned a great deal about basic design principles in conjunction with user interaction in a store."></Box>
             </Col>
-            <Col xs={5} md={5}>
-              <Box size="standard" src="../../../assets/toysandgiftshop-cropped.png"
-                msrc="../../../assets/toysandgiftshop.jpg" mtype="image"></Box>
+            <Col xs={4} md={4}>
+              <Box size="standard" src="../../../assets/simon.jpg" mtype="embed-cp" msrc="BKarNN"
+                desc="A clone of the popular Simon game built with Javascript and jquery."></Box>
             </Col>
             <Col xs={4} md={4}>
               <Box size="standard" src="../../../assets/tic-tac-toe.png" mtype="embed-cp" msrc="RrzgOx"
@@ -42,8 +42,7 @@ export default class Main extends React.Component {
                 desc="This is a grocery list app built with React that I was experimenting with. My goals were to improve my UX approach."></Box>
             </Col>
             <Col xs={4} md={4}>
-              <Box size="standard" src="../../../assets/markdown.jpg" mtype="image" msrc="../../../assets/markdown.jpg" mextra="link"
-                mextra="link" lhref="http://jacobsmarkdown.surge.sh" ldesc="Click for live demo."
+              <Box size="standard" src="../../../assets/markdown.jpg" mtype="embed-cp" msrc="rxbPZb"
                 desc="Simple markdown previewer that demonstrates two way binding."></Box>
             </Col>
           </Col>
@@ -72,18 +71,8 @@ export default class Main extends React.Component {
           <Col xs={5} md={5}>
             <Box size="standard" src="../../../assets/critical-thinking.png" mtype="embed-sl" msrc="1IMmddDx29So_as88J0Rtn5WrBu1dDcsKVcqUcx26GN0" desc="I taught at a summer camp for two weeks.
               One of the courses I created and taught was critical thinking. These are the slides are used."></Box>
-          </Col>
-        </Section>
-        <Section title="PHILOSOPHER">
-          <Col xs={2} md={2}>
-            <Box size="tall" src="../../../assets/self_collage.jpg" mtype="image" msrc="../../../assets/sea.jpg"
-              desc="Philosophy has framed my perspective on how to live. It provides a set of habits and skills to achieve knowledge and navigate
-              the world. "></Box>
-          </Col>
-          <Col xs={10} md={10}>
-            <Box size="tall" src="../../../assets/SoA.jpg" mtype="image" msrc="../../../assets/SoA.jpg"
-              desc="Philosophy is a major part in developing the questions I wish to answer. These philsophers have taught me how to think
-              which is an invaluable tool to have. I wish to create tools for future generations that expose them to philosophy."></Box>
+            <Box size="standard" src="../../../assets/writingSAIL.jpg" mtype="embed-sl" msrc="1XvuvKSPp0bMH_ASQttlf1M-aJvNPk-4GtoT-ZxNqgzw" desc="I taught at a summer camp for two weeks.
+              These are slides that accompanied a writing course I taught."></Box>
           </Col>
         </Section>
 
