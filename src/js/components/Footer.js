@@ -59,6 +59,8 @@ export default class Footer extends React.Component {
 
 render () {
 
+  const buttonClass = this.state.isValid ? '' : 'hidden';
+
   return (
     <footer>
       <div id="contact" class="contact container">
@@ -81,7 +83,7 @@ render () {
           </FormGroup>
           <OverlayTrigger trigger="click" placement="bottom"
             overlay={<Popover  id="thanks" title="Successful Submit">Thanks. I will get back to you as soon as possible.</Popover>}>
-            <Button type="submit" disabled={!this.state.isValid}>Submit</Button>
+            <Button type="submit" class={buttonClass}>Submit</Button>
           </OverlayTrigger>
         </form>
       </div>
