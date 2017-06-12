@@ -23,7 +23,7 @@ export default class Header extends React.Component {
   render() {
 
     return (
-      <Navbar fixedTop={true} expanded={this.state.expanded}
+      <Navbar staticTop={true} expanded={this.state.expanded}
         onToggle={this.toggleExpanded}>
         <Navbar.Header>
           <Navbar.Brand>
@@ -34,9 +34,7 @@ export default class Header extends React.Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} href="#about">About</NavItem>
-            <NavItem eventKey={2} href="#contact">
-              <span class="material-icons">mail</span>
-            </NavItem>
+            <NavItem eventKey={2} href="#contact">Contact</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
